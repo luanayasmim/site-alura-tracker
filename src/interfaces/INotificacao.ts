@@ -1,10 +1,10 @@
-export enum TipoNotificacao{
+export enum TipoNotificacao {
     SUCESSO,
     ALERTA,
     ERRO
 }
 
-export interface INotificacao{
+export interface INotificacao {
     id: number
     titulo: string;
     tipo: TipoNotificacao;

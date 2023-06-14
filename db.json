@@ -1,0 +1,32 @@
+{
+  "projetos": [
+    {
+      "nome": "Alura Tracker",
+      "id": 1
+    },
+    {
+      "nome": "ByteBank",
+      "id": 2
+    }
+  ],
+  "tarefas": [
+    {
+      "duracaoSegundos": 98,
+      "descricao": "Composintion API",
+      "projeto": {
+        "nome": "Alura Tracker",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "duracaoSegundos": 8,
+      "descricao": "teste",
+      "projeto": {
+        "nome": "ByteBank",
+        "id": 2
+      },
+      "id": 2
+    }
+  ]
+}
